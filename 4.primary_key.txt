@@ -1,0 +1,9 @@
+alter table product
+    add primary key (id);
+
+desc product;
+
+show create table product;
+
+insert into product(id, name, price, quantity)
+values ('P0001', 'Mie Ayam Original', 15000, 100);
