@@ -1,0 +1,28 @@
+create table product
+(
+    id          VARCHAR(10)  NOT NULL,
+    name        varchar(100) NOT NULL,
+    description TEXT,
+    price       Int UNSIGNED NOT NULL,
+    quantity    INT UNSIGNED NOT NULL DEFAULT 0,
+    created_at  TIMESTAMP    not null default current_timestamp
+) engine = innodb;
+
+show tables;
+
+desc product;
+
+insert into product(id, name, price, quantity)
+values ('P0001', 'Mie Ayam Original', 15000, 100);
+
+insert into product(id, name, price, quantity, description)
+values ('P0002', 'Mie Ayam Bakso', 20000, 100, 'Mie Ayam Ori + Bakso');
+
+
+insert into product(id, name, price, quantity)
+values ('P0003', 'Mie Ayam Kecap', 15000, 100),
+       ('P0004', 'Mie Ayam Sambel Bledeg', 17000, 100),
+       ('P0005', 'Mie Ayam Telor', 17000, 100);
+
+select *
+from product;
