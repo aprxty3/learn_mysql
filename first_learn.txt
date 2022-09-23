@@ -1,0 +1,39 @@
+SHOW TABLES;
+
+CREATE TABLE barang2
+(
+    kode   INT,
+    nama   VARCHAR(100),
+    harga  INT,
+    jumlah INT
+) ENGINE = InnoDB;
+
+DESC barang2;
+
+SHOW CREATE TABLE barang2;
+
+ALTER TABLE barang2
+ADD COLUMN deskripsi TEXT;
+
+ALTER TABLE barang2
+MODIFY nama VARCHAR(100) NOT NULL ;
+
+ALTER TABLE barang2
+change kode id int;
+
+ALTER TABLE barang2
+MODIFY jumlah INT NOT NULL DEFAULT 0;
+
+ALTER Table barang2
+modify harga int not null  default 0;
+
+alter table barang2
+add waktu_dibuat DATETIME not null default current_timestamp;
+
+insert into barang2 (id, nama) values (1, 'apel');
+
+select * from barang2;
+
+truncate table barang2;
+
+drop table barang2;
