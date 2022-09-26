@@ -1,1 +1,12 @@
+select id          as Kode,
+       name        as Nama,
+       category    as Kategori,
+       description as Deskripsi,
+       price       as Harga,
+       quantity    as Kuantitas
+from product;
 
+desc product;
+
+select *
+from product;
