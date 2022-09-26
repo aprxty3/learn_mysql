@@ -10,3 +10,11 @@ desc product;
 
 select *
 from product;
+
+select p.id          as Kode,
+       p.name        as Nama,
+       p.category    as Kategori,
+       p.description as Deskripsi,
+       p.price       as Harga,
+       p.quantity    as Kuantitas
+from product as p;
