@@ -1,1 +1,7 @@
+insert into product (id, name, price, quantity)
+values ('P0000', 'Mie Yamie', 10000, 100);
 
+select *
+from product;
+
+delete from product where id = 'P0000';
