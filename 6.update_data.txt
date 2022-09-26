@@ -1,1 +1,30 @@
+desc product;
 
+alter table product
+    add column category enum ('Makanan', 'Minuman', 'Lain-lain')
+        after name;
+
+select *
+from product;
+
+select *
+from product
+where id = 'P0001';
+
+update product
+set category = 'Makanan'
+where id = 'P0001';
+
+
+update product
+set category = 'Makanan'
+where id = 'SALAH';
+
+update product
+set category    = 'Makanan',
+    description = 'Mie Ayam Original + Kecap'
+where id = 'P0003';
+
+update product
+set price = price + 5000
+where id = 'P0004';
