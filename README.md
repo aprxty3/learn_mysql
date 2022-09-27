@@ -8,3 +8,6 @@
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192551109-8817e84c-4197-499d-82c7-682bf862e446.png">
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192551389-57b80418-a37c-41a0-989a-c2c0af3bc07d.png">
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192555990-84664150-6bff-4da9-aca5-922b14a50d21.png">
+
+* Order By Clause
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192556702-777fa3f0-6559-435e-a9b6-ba26212a41a2.png">
