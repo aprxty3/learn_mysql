@@ -1,1 +1,24 @@
+create table admin
+(
+    id         int not null auto_increment,
+    first_name varchar(100),
+    last_name  varchar(100),
+    primary key (id)
+) engine = InnoDB;
 
+desc admin;
+
+insert into admin(first_name, last_name)
+VALUES ('Aji', 'Pras'),
+       ('Aji', 'Prasetyo'),
+       ('Aji', 'Tyo'),
+       ('Dwi', 'Aji');
+
+select *
+from admin;
+
+delete
+from admin
+where id = 4;
+
+select last_insert_id();
