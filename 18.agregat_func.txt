@@ -1,1 +1,14 @@
+select count(id) as 'Total Product'
+from product;
 
+select avg(price) as 'Rata-rata'
+from product;
+
+select max(price) as 'harga termahal'
+from product;
+
+select min(price) as 'harga termurah'
+from product;
+
+select sum(quantity) as 'Total Stock'
+from product;
