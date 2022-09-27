@@ -1,1 +1,7 @@
+select id, category, name
+from product
+order by category;
 
+select id, category, name, price
+from product
+order by category asc, price desc;
