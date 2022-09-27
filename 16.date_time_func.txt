@@ -1,1 +1,10 @@
+select id,
+       created_at,
+       extract(year from created_at)  as Year,
+       extract(month from created_at) as Month,
+       extract(day_hour
+               from created_at)       as Hour
+from product;
 
+select id, created_at, year(created_at), month(created_at), hour(created_at)
+from product;
