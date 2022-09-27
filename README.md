@@ -22,3 +22,7 @@
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192561100-a676ba0d-47ce-40ee-90dc-82e0fa7970fe.png">
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192561303-97ba6027-5671-434c-8d60-c2a32fb0bc1a.png">
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192562095-7d1547bc-819f-4ba1-ac56-c49d23ffbd9f.png">
+
+* Auto Increment
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192566549-0143015c-71f2-4cad-87fe-bfa128505b22.png">
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192568646-3da8b488-1c9c-43fc-a2d5-73a61c80cf44.png">
