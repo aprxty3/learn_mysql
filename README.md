@@ -14,3 +14,6 @@
 
 * Limit Clause
  <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192558046-c5f0df88-8b2d-4c31-a393-ff1d81a70b4d.png">
+
+* Select Distinct Data
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192559365-292b6a02-17cc-4fbf-9fef-57149796b4a9.png">
