@@ -11,3 +11,6 @@
 
 * Order By Clause
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192556702-777fa3f0-6559-435e-a9b6-ba26212a41a2.png">
+
+* Limit Clause
+ <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192558046-c5f0df88-8b2d-4c31-a393-ff1d81a70b4d.png">
