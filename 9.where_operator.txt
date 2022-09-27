@@ -10,8 +10,18 @@ values ('P0006', 'Makanan', 'Bakso Iga', 20000, 100),
        ('P0009', 'Makanan', 'Bakso Rawit', 17000, 300),
        ('P0010', 'Makanan', 'Bakso Beranak', 30000, 200),
        ('P0011', 'Makanan', 'Bakso Bazooka', 25000, 100),
-       ('P0012', 'Makanan', 'Bakso Granat', 25000, 200),
-       ('P0013', 'Minuman', 'Es Degan', 10000, 100),
+       ('P0012', 'Makanan', 'Bakso Granat', 25000, 200);
+
+select *
+from product
+where quantity > 100;
+desc product;
+
+select *
+from product;
+
+insert into product (id, category, name, price, quantity)
+values ('P0013', 'Minuman', 'Es Degan', 10000, 100),
        ('P0014', 'Minuman', 'Es Teh', 5000, 200),
        ('P0015', 'Minuman', 'Es Jeruk', 7000, 300),
        ('P0016', 'Minuman', 'Teh Panas', 3000, 300),
@@ -31,3 +41,66 @@ where quantity >= 100;
 select *
 from product
 where category != 'Makanan';
+
+select *
+from product
+where quantity > 100
+  AND price > 20000;
+
+select *
+from product
+where category = 'Makanan'
+  AND price < 20000;
+
+
+select *
+from product
+where quantity > 400
+   OR price > 15000;
+
+select *
+from product
+where category = 'Makanan'
+   or quantity > 400 and price > 15000;
+
+select *
+from product
+where (category = 'Makanan'
+    or quantity > 400)
+  and price > 15000;
+
+select *
+from product
+where name LIKE '%mie%';
+
+select *
+from product
+where name LIKE '%bakso%';
+
+select *
+from product
+where name LIKE '%usu%';
+
+select *
+from product
+where description IS NULL;
+
+select *
+from product
+where description IS NOT NULL;
+
+select *
+from product
+where price BETWEEN 10000 AND 20000;
+
+select *
+from product
+where price NOT BETWEEN 10000 AND 20000;
+
+select *
+from product
+where category IN ('Makanan', 'Minuman');
+
+select *
+from product
+where category NOT IN ('Makanan', 'Minuman');
