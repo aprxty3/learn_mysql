@@ -17,3 +17,8 @@
 
 * Select Distinct Data
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192559365-292b6a02-17cc-4fbf-9fef-57149796b4a9.png">
+
+* Numeric Function
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192561100-a676ba0d-47ce-40ee-90dc-82e0fa7970fe.png">
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192561303-97ba6027-5671-434c-8d60-c2a32fb0bc1a.png">
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192562095-7d1547bc-819f-4ba1-ac56-c49d23ffbd9f.png">
