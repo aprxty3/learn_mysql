@@ -1,1 +1,16 @@
+select id, category, name
+from product;
 
+select id,
+       name,
+       case category
+           when 'Makanan' then 'Enak'
+           when 'Minuman' then 'Segar'
+           else 'Apa Itu?' end as 'Category'
+from product;
+
+select id, name, price, if(price <= 15000, 'Murah', if(price <= 20000, 'Mahal', 'Mahal Banget')) as 'Kategory Budge'
+from product;
+
+select id, name, description, IFNULL(description, 'Kosong')
+from product;
