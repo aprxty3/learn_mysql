@@ -26,3 +26,9 @@
 * Auto Increment
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192566549-0143015c-71f2-4cad-87fe-bfa128505b22.png">
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192568646-3da8b488-1c9c-43fc-a2d5-73a61c80cf44.png">
+
+* String Function
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192569122-e017fc98-6429-47e4-af39-59d054efb7d8.png">
+
+* Date Time Function
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192570189-cc147379-02e1-4e8e-b6f1-ebebb00d01c9.png">
