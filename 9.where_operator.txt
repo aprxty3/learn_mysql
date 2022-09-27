@@ -27,3 +27,7 @@ where quantity > 100;
 select *
 from product
 where quantity >= 100;
+
+select *
+from product
+where category != 'Makanan';
