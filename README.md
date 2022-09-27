@@ -32,3 +32,9 @@
 
 * Date Time Function
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192570189-cc147379-02e1-4e8e-b6f1-ebebb00d01c9.png">
+
+* Flow Control Function
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192572200-96410c34-279c-4caa-b261-9d68cb87f71f.png">
+
+* Aggregate Function
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/73772152/192574381-9f2ffe6f-dca1-4884-a8f9-f5250d5c92f6.png">
