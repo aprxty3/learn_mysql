@@ -1,1 +1,14 @@
+select 10 + 10 as hasil;
 
+select id,
+       name,
+       price
+           div 1000 as 'Price in K'
+from product;
+
+select id, cos(price), sin(price), tan(price)
+from product;
+
+select id, name, price
+from product
+where price div 1000 > 15;
