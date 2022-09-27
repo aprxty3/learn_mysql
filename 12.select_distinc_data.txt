@@ -1,1 +1,5 @@
+select category
+from product;
 
+select distinct category
+from product;
