@@ -1,1 +1,4 @@
+select id, lower(name) as 'Nama Lower', length(name) as 'Name Lenght', upper(name) as 'Name Upper'
+from product;
+
 
