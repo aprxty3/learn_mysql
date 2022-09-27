@@ -1,1 +1,29 @@
+desc product;
 
+select *
+from product;
+
+insert into product (id, category, name, price, quantity)
+values ('P0006', 'Makanan', 'Bakso Iga', 20000, 100),
+       ('P0007', 'Makanan', 'Bakso Rusuk', 24000, 200),
+       ('P0008', 'Makanan', 'Bakso Iga Telor', 25000, 100),
+       ('P0009', 'Makanan', 'Bakso Rawit', 17000, 300),
+       ('P0010', 'Makanan', 'Bakso Beranak', 30000, 200),
+       ('P0011', 'Makanan', 'Bakso Bazooka', 25000, 100),
+       ('P0012', 'Makanan', 'Bakso Granat', 25000, 200),
+       ('P0013', 'Minuman', 'Es Degan', 10000, 100),
+       ('P0014', 'Minuman', 'Es Teh', 5000, 200),
+       ('P0015', 'Minuman', 'Es Jeruk', 7000, 300),
+       ('P0016', 'Minuman', 'Teh Panas', 3000, 300),
+       ('P0017', 'Lain-lain', 'Kerupuk Pangsit', 2000, 400),
+       ('P0018', 'Lain-lain', 'Kerupuk Rangginang', 5000, 500),
+       ('P0019', 'Lain-lain', 'Kerupuk Astor', 3000, 400),
+       ('P0020', 'Lain-lain', 'Kerupuk Seblak', 5000, 500);
+
+select *
+from product
+where quantity > 100;
+
+select *
+from product
+where quantity >= 100;
